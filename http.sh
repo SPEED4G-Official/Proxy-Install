@@ -232,5 +232,5 @@ ip=$(echo "$response" | jq -r '.ip')
 echo -e "${GREEN}Add Account ${usernamesquid}|${passwordsquid} Successfully.${NC}"
 clear
 echo -e "${NC}"
-echo -e "${GREEN}HTTP Proxy Install Successfully. Proxy:${ip}:3128:${usernamesquid}:${passwordsquid}${NC}"
+echo -e "${GREEN}HTTP Proxy Install Successfully. HTTP Proxy: ${ip}:3128:${usernamesquid}:${passwordsquid}${NC}"
 echo -e "${NC}"
