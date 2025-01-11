@@ -1,5 +1,5 @@
 clear
-echo -e "Start Install Squid Proxy ..."
+echo -e "Start Install HTTP Proxy ..."
 usernamesquid="$1"
 passwordsquid="$2"
 if [ `whoami` != root ]; then
