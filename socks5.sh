@@ -21,5 +21,5 @@ response=$(curl -s https://api.myip.com)
 ip=$(echo "$response" | jq -r '.ip')
 clear
 echo -e "${NC}"
-echo -e "${GREEN}SOCKS5 Proxy Install Successfully. SOCKS5 Proxy: socks5://${ip}:1080:${usernamesquid}:${passwordsquid}${NC}"
+echo -e "${GREEN}SOCKS5 Proxy Install Successfully. SOCKS5 Proxy: socks5://${ip}:1080:${usernamesocks5}:${passwordsocks5}${NC}"
 echo -e "${NC}"
