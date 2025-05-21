@@ -1,7 +1,7 @@
 echo -e "Start Install SOCKS5 Proxy ..."
 usernamesocks5="$1"
 passwordsocks5="$2"
-yum install -y gcc openldap-devel pam-devel openssl-devel wget
+yum install -y gcc openldap-devel pam-devel openssl-devel wget jq
 wget http://jaist.dl.sourceforge.net/project/ss5/ss5/3.8.9-8/ss5-3.8.9-8.tar.gz
 tar -vzx -f ss5-3.8.9-8.tar.gz
 cd ss5-3.8.9/
